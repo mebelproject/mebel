@@ -1,5 +1,6 @@
-const { defineConfig } = require('vite');
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react-swc';
 
-module.exports = defineConfig({
-  plugins: [],
+export default defineConfig({
+  plugins: [react()],
 });
