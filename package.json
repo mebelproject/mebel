@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
+    "vercel-build": "vite build --configLoader native",
     "preview": "vite preview"
   },
   "dependencies": {
